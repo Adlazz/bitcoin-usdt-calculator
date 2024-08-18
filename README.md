@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# Calculadora Bitcoin-USDT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
+Esta aplicación web proporciona una calculadora interactiva para operaciones con Bitcoin y USDT. Permite a los usuarios calcular ganancias o pérdidas potenciales en sus inversiones de Bitcoin, teniendo en cuenta las comisiones del broker.
 
-## Available Scripts
+## Enlace en vivo
+Puedes ver y usar la aplicación en vivo aquí: [Bitcoin-USDT Calculator](https://bitcoin-usdt-calculator.vercel.app/)
 
-In the project directory, you can run:
+## Características
+- Cálculo de ganancias/pérdidas basado en el precio actual de Bitcoin
+- Determinación del precio objetivo para lograr una ganancia deseada
+- Inclusión de comisiones de broker en los cálculos
+- Interfaz de usuario intuitiva y responsiva
 
-### `npm start`
+## Tecnologías utilizadas
+- React
+- TypeScript
+- Tailwind CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalación
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
-### `npm test`
+1. Clona el repositorio:
+   ```
+   git clone https://github.com/Adlazz/bitcoin-usdt-calculator.git
+   cd bitcoin-usdt-calculator
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instala las dependencias:
+   ```
+   npm install
+   ```
 
-### `npm run build`
+3. Inicia la aplicación en modo de desarrollo:
+   ```
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La aplicación estará disponible en `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Ingresa el monto de tu inversión en USDT.
+2. Introduce el precio de compra de Bitcoin.
+3. Especifica la comisión del broker (en porcentaje).
+4. Elige entre calcular basado en el precio actual o en una ganancia objetivo.
+5. Si eliges precio actual, ingresa el precio actual de Bitcoin.
+6. Si eliges ganancia objetivo, ingresa el porcentaje de ganancia deseado.
+7. Haz clic en "Calcular" para ver los resultados.
 
-### `npm run eject`
+## Contribuir
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cambios mayores antes de enviar un pull request.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Haz fork del proyecto
+2. Crea tu rama de características (`git checkout -b feature/AmazingFeature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Licencia
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-## Learn More
+## Deploy en Vercel
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Enlace del proyecto: [https://github.com/Adlazz/bitcoin-usdt-calculator](https://github.com/Adlazz/bitcoin-usdt-calculator)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Enlace en vivo: [https://bitcoin-usdt-calculator.vercel.app/](https://bitcoin-usdt-calculator.vercel.app/)
